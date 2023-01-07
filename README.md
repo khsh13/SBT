@@ -1,1 +1,1 @@
-# SBT
+# She Builds Tech Hackathon
