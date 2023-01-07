@@ -2,11 +2,11 @@ import React from 'react'
 
 const features = () => {
   return (
-    <section className="text-gray-600 body-font bg-blue-500">
+    <section className="text-gray-600 body-font bg-black">
   <div className="container px-5 py-24 mx-auto">
     <div className="text-center mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-black mb-4">Rights and Features</h1>
-      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-black">Always up with the desired features required for your protection!
+      <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-[#0CCF89]">Rights and Features</h1>
+      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-[#0CCF89]">Always up with the desired features required for your protection!
         Affordable and much reliable with decentralization as our major aim.
       </p>
     </div>
@@ -66,7 +66,7 @@ const features = () => {
         </div>
       </div>
     </div>
-    <button className="flex mx-auto mt-16 text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">View More</button>
+    <button className="flex mx-auto mt-16 text-white bg-red border-0 py-2 px-8 focus:outline-none hover:bg-[#0CCF89] rounded text-lg">View More</button>
   </div>
 </section>
 
