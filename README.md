@@ -28,4 +28,4 @@ Using a Concordium extension and implementing OCR (Optical Character Recognition
 Devfolio Link: https://devfolio.co/shebuilds/dashboard
 
 
-Presentation: https://www.canva.com/design/DAFXEPXw8zY/87B7FHRiP5XAqilG2BsuuA/editutm_content=DAFXEPXw8zY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Presentation: [https://www.canva.com/design/DAFXEPXw8zY/87B7FHRiP5XAqilG2BsuuA/editutm_content=DAFXEPXw8zY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAFXEPXw8zY/sQo_kQOF4HMuuGS14_VwPg/view?utm_content=DAFXEPXw8zY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1)
