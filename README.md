@@ -12,3 +12,8 @@ With "Not Equal To", you can simply snap a photo of your code and see it run in 
 
 # TechStacks Employed
 TailwindCSS, JavaScript, Django, React.JS, TesseractOCR, Concordium.
+
+# Links
+
+Devfolio Link: https://devfolio.co/shebuilds/dashboard
+Presentation: https://www.canva.com/design/DAFXEPXw8zY/87B7FHRiP5XAqilG2BsuuA/editutm_content=DAFXEPXw8zY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
