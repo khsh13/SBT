@@ -2,8 +2,7 @@ import React from 'react'
 
 const password = () => {
   return (
-    <div className="p-8">
-    <div className="bg-black p-4 rounded-lg shadow-xl py-8 mt-12">
+    <div className="bg-black p-4 shadow-xl py-4 mt-0.5">
         <h4 className="text-4xl font-bold text-white tracking-widest text-center">FAQs</h4>
         <p className="text-center text-white text-sm mt-2">Here are some of the frequently asked questions</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-12 px-2 xl:px-12 mt-4">
@@ -86,9 +85,11 @@ const password = () => {
                     <a href="#" className="text-blue-600 hover:text-blue-800 hover:underline capitalize" title="Read More">Read More</a>
                 </div>
             </div>
+            <br></br>
+            <br></br>
         </div>
     </div>
-</div>
+
   )
 }
 
