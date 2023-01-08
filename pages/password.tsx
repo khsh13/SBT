@@ -2,112 +2,92 @@ import React from 'react'
 
 const password = () => {
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="p-8">
+    <div className="bg-black p-4 rounded-lg shadow-xl py-8 mt-12">
+        <h4 className="text-4xl font-bold text-white tracking-widest text-center">FAQs</h4>
+        <p className="text-center text-white text-sm mt-2">Here are some of the frequently asked questions</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-12 px-2 xl:px-12 mt-4">
+            <div className="flex space-x-8 mt-8">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-[#0CCF89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                        <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h4 className="text-xl font-bold text-gray-700">Lorem ipsum dolor sit amet?</h4>
+                    <p className="text-gray-600 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dignissimos. Neque eos, dignissimos provident reiciendis debitis repudiandae commodi perferendis et itaque, similique fugiat cumque impedit iusto vitae dolorum. Nostrum, fugit!</p>
+                    <a href="#" className="text-blue-600 hover:text-blue-800 hover:underline capitalize" title="Read More">Read More</a>
+                </div>
+            </div>
+            
+            <div className="flex space-x-8 mt-8">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-[#0CCF89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h4 className="text-xl font-bold text-gray-700">Consectetur adipisicing elit?</h4>
+                    <p className="text-gray-600 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dignissimos. Neque eos, dignissimos provident reiciendis debitis repudiandae commodi perferendis et itaque, similique fugiat cumque impedit iusto vitae dolorum. Nostrum, fugit!</p>
+                    <a href="#" className="text-blue-600 hover:text-blue-800 hover:underline capitalize" title="Read More">Read More</a>
+                </div>
+            </div>
 
-	<div className="flex flex-col">
-    <div className="overflow-x-auto shadow-md sm:rounded-lg">
-        <div className="inline-block min-w-full align-middle">
-            <div className="overflow-hidden ">
-                <table className="min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-700">
-                    <thead className="bg-gray-100 dark:bg-gray-700">
-                        <tr>
-                            <th scope="col" className="p-4">
-                                <div className="flex items-center">
-                                    <input type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"></input>
-                                    <label className="sr-only">checkbox</label>
-                                </div>
-                            </th>
-                            <th scope="col" className="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400">
-                                Application
-                            </th>
-                            <th scope="col" className="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400">
-                                Username
-                            </th>
-                            <th scope="col" className="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400">
-                                Password
-                            </th>
-                            <th scope="col" className="p-4">
-                                <span className="sr-only">Edit</span>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody className="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
-                        <tr className="hover:bg-gray-100 dark:hover:bg-gray-700">
-                            <td className="p-4 w-4">
-                                <div className="flex items-center">
-                                    <input type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"></input>
-                                    <label className="sr-only">checkbox</label>
-                                </div>
-                            </td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">LinkedIn</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">Kai-kinesis</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">abcd123</td>
-                            <td className="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
-                                <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                            </td>
-                        </tr>
-                        <tr className="hover:bg-gray-100 dark:hover:bg-gray-700">
-                            <td className="p-4 w-4">
-                                <div className="flex items-center">
-                                    <input id="checkbox-table-2" type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"></input>
-                                    <label className="sr-only">checkbox</label>
-                                </div>
-                            </td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">Twitter</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">Kai-Kinesis</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">twitter123</td>
-                            <td className="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
-                                <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                            </td>
-                        </tr>
-                        <tr className="hover:bg-gray-100 dark:hover:bg-gray-700">
-                            <td className="p-4 w-4">
-                                <div className="flex items-center">
-                                    <input id="checkbox-table-3" type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"></input>
-                                    <label className="sr-only">checkbox</label>
-                                </div>
-                            </td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">Discord</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">Kaikai</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">discordopassword</td>
-                            <td className="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
-                                <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                            </td>
-                        </tr>
-                        <tr className="hover:bg-gray-100 dark:hover:bg-gray-700">
-                            <td className="p-4 w-4">
-                                <div className="flex items-center">
-                                    <input id="checkbox-table-4" type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"></input>
-                                    <label className="sr-only">checkbox</label>
-                                </div>
-                            </td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">Reddit</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">Kai-somethingcool</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">23@tysb</td>
-                            <td className="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
-                                <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                            </td>
-                        </tr>
-                        <tr className="hover:bg-gray-100 dark:hover:bg-gray-700">
-                            <td className="p-4 w-4">
-                                <div className="flex items-center">
-                                    <input id="checkbox-table-5" type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"></input>
-                                    <label  className="sr-only">checkbox</label>
-                                </div>
-                            </td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">Facebook</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">Kai-Ikigai</td>
-                            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">$5672hghv</td>
-                            <td className="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
-                                <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div className="flex space-x-8 mt-8">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-[#0CCF89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                        </svg>
+                </div>
+                <div>
+                    <h4 className="text-xl font-bold text-gray-700">Neque eos, dignissimos provident reiciendis debitis?</h4>
+                    <p className="text-gray-600 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dignissimos. Neque eos, dignissimos provident reiciendis debitis repudiandae commodi perferendis et itaque, similique fugiat cumque impedit iusto vitae dolorum. Nostrum, fugit!</p>
+                    <a href="#" className="text-blue-600 hover:text-blue-800 hover:underline capitalize" title="Read More">Read More</a>
+                </div>
+            </div>
+
+            <div className="flex space-x-8 mt-8">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-[#0CCF89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h4 className="text-xl font-bold text-gray-700">Repudiandae commodi perferendis et itaque?</h4>
+                    <p className="text-gray-600 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dignissimos. Neque eos, dignissimos provident reiciendis debitis repudiandae commodi perferendis et itaque, similique fugiat cumque impedit iusto vitae dolorum. Nostrum, fugit!</p>
+                    <a href="#" className="text-blue-600 hover:text-blue-800 hover:underline capitalize" title="Read More">Read More</a>
+                </div>
+            </div>
+
+            <div className="flex space-x-8 mt-8">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-[#0CCF89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h4 className="text-xl font-bold text-gray-700">Similique fugiat cumque?</h4>
+                    <p className="text-gray-600 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dignissimos. Neque eos, dignissimos provident reiciendis debitis repudiandae commodi perferendis et itaque, similique fugiat cumque impedit iusto vitae dolorum. Nostrum, fugit!</p>
+                    <a href="#" className="text-blue-600 hover:text-blue-800 hover:underline capitalize" title="Read More">Read More</a>
+                </div>
+            </div>
+
+            <div className="flex space-x-8 mt-8">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-[#0CCF89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h4 className="text-xl font-bold text-gray-700">Impedit iusto vitae dolorum, nostrum fugit?</h4>
+                    <p className="text-gray-600 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dignissimos. Neque eos, dignissimos provident reiciendis debitis repudiandae commodi perferendis et itaque, similique fugiat cumque impedit iusto vitae dolorum. Nostrum, fugit!</p>
+                    <a href="#" className="text-blue-600 hover:text-blue-800 hover:underline capitalize" title="Read More">Read More</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
   )
 }

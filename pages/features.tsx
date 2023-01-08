@@ -3,71 +3,73 @@ import React from 'react'
 const features = () => {
   return (
     <section className="text-gray-600 body-font bg-black">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="text-center mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-[#0CCF89]">Rights and Features</h1>
-      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-[#0CCF89]">Always up with the desired features required for your protection!
-        Affordable and much reliable with decentralization as our major aim.
-      </p>
+  <div className="container px-3 py-10 mx-auto">
+    <div className="py-16 bg-gray-50 overflow-hidden">
+    <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
+        <div>
+            <span className="text-[#0CCF89] text-lg font-semibold text-center">Main features</span>
+            <h2 className="mt-4 text-2xl text-gray-900 font-bold md:text-4xl">A technology-first approach to payments <br className="lg:block" hidden></br> and finance</h2>
+        </div>
+        <div className="mt-16 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+                <div className="relative p-8 space-y-8">
+                    <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/burger.png" className="w-10" width="512" height="512" alt="burger illustration"></img>
+                    <div className="space-y-2">
+                        <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">First feature</h5>
+                        <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    </div>
+                    <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <span className="text-sm">Read more</span>
+                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">--></span>
+                    </a>
+                </div>
+            </div>
+            <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+                <div className="relative p-8 space-y-8">
+                    <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/trowel.png" className="w-10" width="512" height="512" alt="burger illustration"></img>
+                    
+                    <div className="space-y-2">
+                        <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Second feature</h5>
+                        <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    </div>
+                    <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <span className="text-sm">Read more</span>
+                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">--></span>
+                    </a>
+                </div>
+            </div>
+            <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+                <div className="relative p-8 space-y-8">
+                    <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/package-delivery.png" className="w-10" width="512" height="512" alt="burger illustration"></img>
+                    
+                    <div className="space-y-2">
+                        <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Third feature</h5>
+                        <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    </div>
+                    <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <span className="text-sm">Read more</span>
+                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">--></span>
+                    </a>
+                </div>
+            </div>
+            <div className="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+                <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
+                    <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png" className="w-10" width="512" height="512" alt="burger illustration"></img>
+                    
+                    <div className="space-y-2">
+                        <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">More features</h5>
+                        <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                    </div>
+                    <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <span className="text-sm">Read more</span>
+                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">--></span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-      <div className="p-2 sm:w-1/2 w-full">
-        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span className="title-font font-medium">Password management</span>
-        </div>
-      </div>
-      <div className="p-2 sm:w-1/2 w-full">
-        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span className="title-font font-medium">authentication and authorization</span>
-        </div>
-      </div>
-      <div className="p-2 sm:w-1/2 w-full">
-        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span className="title-font font-medium">No ethical issues</span>
-        </div>
-      </div>
-      <div className="p-2 sm:w-1/2 w-full">
-        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span className="title-font font-medium">Decentralization of authority</span>
-        </div>
-      </div>
-      <div className="p-2 sm:w-1/2 w-full">
-        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span className="title-font font-medium">Negligible Data distribution</span>
-        </div>
-      </div>
-      <div className="p-2 sm:w-1/2 w-full">
-        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span className="title-font font-medium">Identity theft protection</span>
-        </div>
-      </div>
-    </div>
-    <button className="flex mx-auto mt-16 text-white bg-red border-0 py-2 px-8 focus:outline-none hover:bg-[#0CCF89] rounded text-lg">View More</button>
-  </div>
+</div>
+</div>
 </section>
 
   )
